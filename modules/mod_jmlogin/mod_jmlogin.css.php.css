@@ -1,0 +1,7 @@
+a:focus { outline: none; }
+
+span.jm-login,
+span.horizontal span.jm-login span,
+span.vertical span.jm-login span {
+	display: block;
+}
