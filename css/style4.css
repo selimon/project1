@@ -1,0 +1,72 @@
+@font-face
+{
+	font-family: 'MyriadProRegular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/myriadpro-regular-webfont.eot?') format('eot'),
+		url('fonts/myriadpro-regular-webfont.woff') format('woff'),
+		url('.fonts/myriadpro-regular-webfont.ttf') format('truetype'),
+		url('fonts/myriadpro-regular-webfont.svg') format('svg');
+}
+.countbox
+{
+	color: #2f2f2f;
+	font-family: MyriadProRegular,Helvetica,sans-serif;
+	font-size: 69px;
+	height: 106px;
+	line-height: 82px;
+	margin: 0 auto;
+	padding: 0;
+	width: 324px;
+}
+.countbox .countbox-num
+{
+	float: left;
+}
+.countbox .countbox-space
+{
+	float: left;
+	height: 90px;
+	width: 8px;
+}
+.countbox-hours1,.countbox-mins1,.countbox-secs1,.countbox-hours2,.countbox-mins2,.countbox-secs2
+{
+	background-image: url('../images/flip.png');
+	background-repeat: no-repeat;
+	float: left;
+	height: 89px;
+	margin: 0 -4px 0 0;
+	text-align: center;
+	width: 55px;
+	z-index: 1;
+}
+.countbox-hours-text,.countbox-mins-text,.countbox-secs-text
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 20px !important;
+	margin-top: 90px;
+	position: absolute;
+	width: 110px;
+}
+.countbox-hours-text
+{
+	background-image: url('../images/hours_text.png');
+}
+.countbox-mins-text
+{
+	background-image: url('../images/mins_text.png');
+}
+.countbox-secs-text
+{
+	background-image: url('../images/secs_text.png');
+}
+.countbox-hours1 span, .countbox-hours2 span, .countbox-mins1 span, .countbox-mins2 span, .countbox-secs1 span, .countbox-secs2 span
+{
+	background: url('../images/flip_gradient.png');
+	background-repeat: no-repeat;
+	display: block;
+	height: 89px;
+	position: absolute;
+	width: 55px;
+}
